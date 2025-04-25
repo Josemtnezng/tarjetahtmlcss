@@ -1,0 +1,60 @@
+/* Estilo del body o base */
+body {
+	background: rgb(160, 192, 204);
+	font-family: "Open Sans", sans-serif;
+}
+
+* {
+	min-height: 10px;
+}
+/* Esta es la tarjeta principal */
+.postcard {
+	background: #bcd8f7;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+/* Aqui esta el encabezado de la página */
+.postcard-header {
+	display: flex;
+}
+/* Aqui va la imagen del encabezado */
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+	padding-top: 10px;
+}
+/* Título de la tarjeta */
+.postcard-header h1 {
+	width: 100%;
+	margin: 0;
+	padding-top: 5px;
+}
+/* Cuerpo de la tarjeta */
+.postcard-body {
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+	display: flex;
+}
+/* Primer párrafo en la izquierda sin margen superior */
+.body-left p:first-child {
+	margin-top: 0;
+}
+/* Sección izquierda y derecha */
+.body-left,
+.body-right {
+	padding: 10px;
+}
+/* Aqui estan los input */
+input {
+	border: none;
+	border-bottom: 1px grey solid;
+}
+/*Este es el botón*/
+button {
+	background-color: #007bff;
+	padding: 5px 10px;
+}
+/* Este es el pie de página */
+.postcard-footer {
+	text-align: center;
+}
